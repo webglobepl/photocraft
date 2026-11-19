@@ -38,6 +38,8 @@ mod contour;
 mod gradient_field;
 #[cfg(test)]
 mod gradient_method_tests;
+#[cfg(test)]
+mod blend_wheel_tests;
 
 /// The Styles preset gallery page id.
 pub const STYLES_PAGE: &str = "styles";
